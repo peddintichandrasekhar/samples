@@ -1,3 +1,7 @@
+.nav-bg{
+  padding-left: 100px;
+}
+
 .navbar{
   height: 100px;
   width: 100%;
@@ -16,7 +20,7 @@
   position:fixed;
 
 }
-li{
+ .list{
   display: flex;
   margin: 30px;
   color: aliceblue;
@@ -25,14 +29,50 @@ li{
   margin-top: 10px;
   color: white;
   
-}
-.Link{
+} 
+.link{
   text-decoration: none;
   color:black;
+  font-size: 15px;
+  font-weight: 500;
   
 }
 
-.carousel {
-  height: 100vh;
-  width: 100%;
+.li-items{
+  padding-left: 40px;
 }
+
+.img{
+  height: 100vh;
+
+}
+
+.img-img-img {
+  width: 100%;
+  background-size: cover;
+  height: 60vh;
+  
+}
+.img-img-img:hover{
+  color: blueviolet;
+  
+}
+.cardslist{
+  background-size: cover;
+}
+
+.cards{
+  list-style: none;
+}
+
+.icon{
+  font-size: 50px;
+
+}
+.color:hover{
+  color: blueviolet;
+
+}
+
+
+  

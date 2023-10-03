@@ -2,38 +2,38 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 function Navbar() {
   return (
-    <div className='navbar navbar-expand-lg fixed-top'>
+    <div className='navbar navbar-expand-lg nav-bg fixed-top pt-0'>
         <div className='cantainer'>
-            <img className='img'src='https://mainwprentals.b-cdn.net/wp-content/uploads/2022/09/main_transparent1_2x.png'alt='img'></img>
+            <img src='https://mainwprentals.b-cdn.net/wp-content/uploads/2022/09/main_transparent1_2x.png'alt='img'></img>
         </div>
         <div>
-          <ul className='nav'>
-            <li>
-              <Link className='Link' to='/home'>Home</Link>
+          <ul className='navbar-nav li-items'>
+            <li className='list'>
+              <Link className='link' to='/home'>Home</Link>
             </li>
-            <li>
-              <Link className='Link' to='/demos'>Demos</Link>
+            <li className='list'>
+              <Link className='link' to='/demos'>Demos</Link>
             </li>
-            <li>
-              <Link className='Link' to='properties'>properties</Link>
+            <li className='list'>
+              <Link className='link' to='properties'>properties</Link>
             </li>
-            <li>
-              <Link className='Link' to='/owners'>Owners</Link>
+            <li className='list'>
+              <Link className='link' to='/owners'>Owners</Link>
             </li>
-            <li>
-              <Link className='Link' to='features'>Features</Link>
+            <li className='list'>
+              <Link className='link' to='features'>Features</Link>
             </li>
-            <li>
-              <Link className='Link' to='pages'>Pages</Link>
+            <li className='list'>
+              <Link className='link' to='pages'>Pages</Link>
             </li>
-            <li>
-              <Link className='Link' to='lognin'>Lognin</Link>
+            <li className='list'>
+              <Link className='link' to='lognin'>Lognin</Link>
             </li>
-            <li>
-              <Link className='Link' to='signin'>Signin</Link>
+            <li className='list'>
+              <Link className='link' to='signin'>Signin</Link>
             </li>
-            <li>
-              <Link className='Link' to='submit'>Submit</Link>
+            <li className='list'>
+              <Link className='link' to='submit'>Submit</Link>
             </li>
           </ul>
         </div>

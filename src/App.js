@@ -30,14 +30,6 @@ function App() {
         <Route path='/submit'element={<Submit/>}/>
         
 
-
-
-
-
-
-
-
-
       </Routes>
     </div>
   );
