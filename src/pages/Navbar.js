@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 function Navbar() {
   return (
-    <div className='navbar navbar-expand-lg nav-bg fixed-top pt-0'>
+    <div className='navbar navbar-expand-lg nav-bg bg-white fixed-top pt-0'>
         <div className='cantainer'>
             <img src='https://mainwprentals.b-cdn.net/wp-content/uploads/2022/09/main_transparent1_2x.png'alt='img'></img>
         </div>
